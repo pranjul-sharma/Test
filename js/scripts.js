@@ -54,7 +54,7 @@ function suggestDomain(){
 			$(".loader").hide();
 		}
 	};
-	xmlhttp.open("GET",'app/suggestDomain.php?searchdomain='+searchText,true);
+	xmlhttp.open("GET",'php/suggestDomain.php?searchdomain='+searchText,true);
 	xmlhttp.send();
 }
 
@@ -96,7 +96,7 @@ function searchDomain(){
 			btn.addEventListener("onclick",userLogin);
 		}
 	};
-	xmlhttp.open("GET",'app/searchDomain.php?searchdomain='+searchText,true);
+	xmlhttp.open("GET",'php/searchDomain.php?searchdomain='+searchText,true);
 	xmlhttp.send();
 
 }
