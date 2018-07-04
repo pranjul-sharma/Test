@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search Domain</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/journal/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>	
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>This is domain search test.</h1>
+			<form method="GET">
+			<input type="text" id="searchdomain" placeholder="enter domain to search" required/>
+			<button class="btn-success" onclick="searchDomain">Submit</button>
+			</form>
+			<div id="response"></div>
+			<div id="suggestions"></div>
+			<div class="loader"></div>
+			<div class="container-fluid"><button class="btn btn-primary login" id="test">Login</button></div>
+		</div>
+	</body>
+</html>
